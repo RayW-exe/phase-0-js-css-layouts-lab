@@ -1,4 +1,4 @@
-.cat-breed-container {
+.cat-breed{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -28,7 +28,7 @@
 }
 
 .cat-breed p {
-    margin: 0.5em 0 1em 0;
+    margin: 0.5em 0 1em ;
 }
 
 @media (max-width: 768px) {
@@ -43,4 +43,11 @@
 
 .cat-breed:hover {
   transform: scale(1.05);
+}
+
+.cat-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
 }
